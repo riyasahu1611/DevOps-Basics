@@ -2,4 +2,4 @@
 FROM tomcat:9.0  
 
 # Copy Rays.html to the Tomcat ROOT web directory
-COPY Rays.html /usr/local/tomcat/webapps/ROOT/
+COPY Welcome.html /usr/local/tomcat/webapps/ROOT/
