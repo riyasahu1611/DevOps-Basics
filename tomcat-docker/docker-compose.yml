@@ -1,6 +1,6 @@
 version: '3.8'
 
-services:
+services:            #machine pe kuch run hota toh as a service
   tomcat:
     image: tomcat:latest  # Specify the image name
     build: .              # Build the image from the Dockerfile in the current directory
